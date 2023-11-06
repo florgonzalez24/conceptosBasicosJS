@@ -13,7 +13,6 @@ while (numero <= 10) {
   numero++;
 }
 
-
 /*
 do{
     todas las lineas de codigo que quiero repetir varias veces
@@ -23,7 +22,18 @@ do{
 
 let contador = 10;
 
-do{
+do {
   document.write(`<p>Renglon número ${contador} con do-while</p>`);
-    contador--;
-} while(contador >= 1)
+  contador--;
+} while (contador >= 1);
+
+/*
+for(inicializo una variable; condicion logica; incremeno o decremento una variable){
+  todas las lineas de codigo que quiero repetir varias veces
+}
+*/
+
+for (let renglon = 1; renglon <= 10; renglon++) {
+  document.write(`<p>Renglon número ${renglon} con for</p>`);
+  
+}
